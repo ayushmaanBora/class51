@@ -1,0 +1,99 @@
+HexaDecimal Number System
+
+
+Decimal means 10 (0-9)
+
+Binary means 2 (0,1)
+
+Hexa+Decimal means 16 (0-9,A-F)
+
+10-A
+11-B
+12-C
+13-D
+14-E
+15-F
+
+HexaDecimal numbers start with a #
+
+HexaDecimal no. will have 6 digits 
+Eg-#FFDDCC
+
+______________________________________
+
+56=50+6
+=5*10^1+6*10^0
+_______________________________________
+
+123=120+3
+=12*10^1+3*10^0
+
+_______________________________________
+
+Binary
+
+101
+=1*2^2+0*2^1+1*2^0
+=4+0+1
+=5
+
+________________________________________
+
+HexaDecimal Number System
+
+AD=A*16^1+D*16^0
+=10*16^1+13*16^0
+=160+13
+=173
+We converted HexaDecimal to Decimal
+___________________________________________
+
+Convert Decimal to Hexa Decimal
+255
+Divide 255 with 16
+=Q.15 + R.15
+=15*16+15
+=F*16^1+F*16^0
+=FF
+___________________________________________
+300
+Divide 300 with 16
+=Q.18 + R.12
+=18/16
+=Q.1 + R.2
+=1/16
+=Q.0 + R.1
+=12C
+___________________________________________
+620
+Divide 620 with 16
+=Q.38 + R.12
+=38/16
+=Q.2 + R.6
+=2/16
+=Q.0 + R.2
+=26C
+
+(620)10 = (26C)16
+
+[Step by step solution
+Step 1: Divide (620)10 successively by 16 until the quotient is 0:
+
+620/16 = 38, remainder is 12
+
+38/16 = 2, remainder is 6
+
+2/16 = 0, remainder is 2
+
+Step 2: Read from the bottom (MSB) to top (LSB) as 26C. 
+So, 26C is the hexadecimal equivalent of decimal number 620 (Answer)].
+______________________________________________________________________________
+
+
+RGB(255,255,255)White
+#FFFFFF
+RGB(0,0,0)Black
+#000000
+RGB(128,128,128)Grey
+#808080
+________________________________________________________________________________
